@@ -1,30 +1,14 @@
-# Security: NEVER push your private keys or sensitive config
+# Security: NEVER push your private keys
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# Dependencies: These are too heavy and can be re-installed via npm
+# Dependencies
 node_modules/
-jspm_packages/
 
-# Hardhat & Blockchain Build Artifacts
+# Hardhat Build Files
 artifacts/
 cache/
 typechain-types/
-coverage/
-coverage.json
-
-# Production builds
-build/
-dist/
-out/
-
-# Debug logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # System Files
 .DS_Store
